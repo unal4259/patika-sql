@@ -15,7 +15,7 @@ ORDER BY country;
 -- film isimlerini sıralayınız.
 SELECT title
 FROM film
-WHERE title ILIKE '%t%t%t%'
+WHERE title ILIKE '%t%t%t%t%'
 ORDER BY title;
 
 -- film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve 
